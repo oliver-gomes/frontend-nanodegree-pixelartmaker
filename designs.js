@@ -11,11 +11,20 @@ const button = document.querySelector('.submitButton');
 
 button.addEventListener('click', function(e){
 
+  e.preventDefault();
+
   const selectHeight = document.querySelector('#inputHeight').value;
   const selectWidth = document.querySelector('#inputWidth').value;
 
-  e.preventDefault();
+  makeGrid(selectHeight, selectWidth);
 
+});
+
+
+
+function makeGrid(selectHeight, selectWidth) {
+
+// Your code goes here!
   for (let i = 0; i < selectHeight; i++){
     const spanH = document.createElement('span');
     spanH.innerHTML = "0";
@@ -29,15 +38,5 @@ button.addEventListener('click', function(e){
     breakIn.innerHTML = "<br>"
     canvasElement.appendChild(breakIn)
   }
-});
-
-
-
-function makeGrid() {
-
-// Your code goes here!
-
 
 }
-
-makeGrid();
