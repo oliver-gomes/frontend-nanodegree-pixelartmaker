@@ -1,5 +1,6 @@
 // Select color input
 const color = document.querySelector('#colorPicker');
+const canvasElement = document.querySelector('#pixelCanvas');
 
 // Select size input
 //const selectHeight = document.querySelector('#inputHeight').value;
@@ -8,21 +9,26 @@ const color = document.querySelector('#colorPicker');
 // When size is submitted by the user, call makeGrid()
 const button = document.querySelector('.submitButton');
 
-button.addEventListener('click', function(){
+button.addEventListener('click', function(e){
 
   const selectHeight = document.querySelector('#inputHeight').value;
   const selectWidth = document.querySelector('#inputWidth').value;
 
-  //alert(`${selectHeight}`);
-  const canvasElement = document.querySelector('#pixelCanvas');
+  e.preventDefault();
 
-  for (let i = 0; i <= selectHeight; i++){
-    const newSpan = document.createElement('span');
-    newSpan.textContent = "1";
-
-    canvasElement.appendChild(newSpan);
+  for (let i = 0; i < selectHeight; i++){
+    const spanH = document.createElement('span');
+    spanH.innerHTML = "0";
+    canvasElement.appendChild(spanH);
+    for (let i = 1; i < selectWidth; i++){
+      const spanW = document.createElement('span');
+      spanW.innerHTML = "0";
+      canvasElement.appendChild(spanW);
+    }
+    const breakIn = document.createElement('span');
+    breakIn.innerHTML = "<br>"
+    canvasElement.appendChild(breakIn)
   }
-
 });
 
 
