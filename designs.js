@@ -32,7 +32,16 @@ function makeGrid(selectHeight, selectWidth) {
       })
     }
   }
-
-
-
 }
+
+// select reset Button
+
+const reset = document.querySelector('.resetButton');
+
+// resetting the canvas
+reset.addEventListener('click', function(){
+  while (canvasElement.firstChild) {
+    canvasElement.removeChild(canvasElement.firstChild);
+    color.value = "#fff";
+  }
+})
