@@ -25,11 +25,14 @@ function makeGrid(selectHeight, selectWidth) {
   for (let i = 0; i < selectHeight; i++){
     let row = canvasElement.insertRow(0);
 
-    for (let i = 0; i < selectWidth; i++){
+    for (let j = 0; j < selectWidth; j++){
       let cell = row.insertCell(0);
+      cell.addEventListener('click', function(){
+        cell.style.backgroundColor = color.value;
+      })
     }
   }
 
-  
+
 
 }
