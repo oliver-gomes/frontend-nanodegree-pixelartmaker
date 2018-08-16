@@ -14,10 +14,10 @@ Interacting with the DOM is one of the most fundamental skills for a front-end w
 
 
 ## How to play
-- pick your dimension of the artboard
-- hit submit to make your board appear
-- pick any color
-- start making your art
+- Pick your dimension of the artboard
+- Hit submit to make your board appear
+- Pick any color
+- Start making your art "Yyaaaayyy!"
 
 ## Project overview
 - Used DOM manipulation techniques as createElement and inserting into the pixelCanvas table
