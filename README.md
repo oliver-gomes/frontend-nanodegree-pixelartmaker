@@ -4,10 +4,12 @@ This Pixel Art Maker App is a project from the [Front End Web Developer Nanodegr
 
 ![project image](https://oliver-gomes.github.io/projects/pixel-art/image/pixelart-project.gif)
 
+[Check the project HERE ](https://oliver-gomes.github.io/projects/pixel-art)
+
 ## Table of Contents
   - ##### How Does This Help My Career?
   - ##### How to play
-  - ##### Making process
+  - ##### Project overview
  
 ## How Does This Help My Career?
 Interacting with the DOM is one of the most fundamental skills for a front-end web developer. Mastering event listeners is essential to creating dynamic user interfaces — and to quite a few other things.
