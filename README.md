@@ -2,7 +2,7 @@
 This Pixel Art Maker App is a project from the [Front End Web Developer Nanodegree](https://www.udacity.com/course/front-end-web-developer-nanodegree--nd001) by [Udacity](https://www.udacity.com/).
 
 
-![project image](https://oliver-gomes.github.io/projects/pixel-art/image/pixelart-project.gif)
+![project image](https://oliver-gomes.github.io/projects/pixel-art/image/pixeart-fix.gif)
 
 [Check the project HERE ](https://oliver-gomes.github.io/projects/pixel-art)
 
